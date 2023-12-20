@@ -1,8 +1,8 @@
 # Projet-java-avancé
-### ce Projet est realisés par :
-**Wissem karous**
-**Ayoub chaari**
-**classe :2GT2** 
+### ce Projet est realisés par : <br>
+**Wissem karous** <br>
+**Ayoub chaari** <br>
+**classe :2GT2**  <br>
 **Projet-java-avancé** <br>
 ### Bonsoir ! ci joint tu trouve tous les resources necessaires pour le projet java demandé : 
 **DEMO:**
