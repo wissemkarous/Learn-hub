@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body {
+/*background*/
+    background-image: url("imagee.jpg");
+    background-size: cover;
+}
+
+.main_body {
+    position: relative;
+}
+
+
+.LoginScreen {
+    position: fixed;
+    width: 70%; /* Ajuster la largeur du LoginScreen */
+    height: 80%; /*Ajuster l'hauteur*/
+    background-color: #fff; /* Mettre le fond en blanc */
+
+  display: flex;
+/*position dans la page*/
+ top: 45%;
+    left: 50%;
+    buttom: 25px;
+     transform: translate(-50%, -40%); 
+    align-items: center; /*tout les elements au centre */
+    justify-content: center;
+
+border-radius: 10px;/* les coins arrondis */
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); /* box shadow */
+
+}
+
+
+
+
+.leftblock {
+/* les dimensions du box */
+    width: 60%;
+    height: 80vh;
+/* background conf */
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-size:  120% 90vh ;
+    background-clip: padding-box;
+    border-radius: 10px;
+    background-position: center ;
+/* organisation des elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.contentlogin {
+/* les dimensions du box */
+    width: 40%;
+    height: 80vh;
+
+/* organisation des elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+/* les coins arrondis */
+border-radius: 0 10px 10px 0; /*  border-top-left-radius: 0px border-top-right-radius: 10px border-bottom-right-radius: 10px
+ border-bottom-left-radius 0px */
+}
+
+.contentlogin h1 {
+    margin-bottom: 30px;
+    color: rgb(66,83,231);
+    text-align: left;
+    
+}
+.contentlogin h2 {
+  margin-bottom: 30px;
+  color: rgb(56,56,56);
+  text-align: left;
+  font-weight: normal; /* Désactive le style en gras */
+  font-size: 12px; /* Ajuster la taille de la police selon vos préférences */
+}
+
+.contentlogin .inputBox {
+    position: relative;
+}
+
+.contentlogin .inputBox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color:rgb(56,56,56) ;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(56,56,56);
+    background: transparent;
+    outline: none;
+}
+
+.contentlogin .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color:rgb(56,56,56);
+    transition: 0.5s;
+}
+
+.contentlogin button.login {
+    background: rgb(167,232,250);
+    outline: none;
+    color: rgb(45,68,100);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid rgb(66,83,231);
+    box-shadow: 0 2px 4px 5px rgba(0, 0, 0.3, 0);
+    margin-top: 25px;
+}
+
+.contentlogin button.login {
+    align-self: center;
+}
+
+.contentlogin button.login:hover {
+    background: rgb(167,232,250);
+    cursor: pointer;
+}
+
+.contentlogin .inputBox input:focus~label,
+.contentlogin .inputBox input:valid~label {
+    top: -20px;
+    left: 0;
+    color: rgb(56,56,56);
+    font-size: 12px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+form {
+  
+  transition: box-shadow ease-in 0.2s;
+}
+
+form:hover {
+  box-shadow: 0 2px 4px 5px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
